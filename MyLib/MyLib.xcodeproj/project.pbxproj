@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1FCA48115041D1D00637872 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1FCA48015041D1D00637872 /* Foundation.framework */; };
+		F1FCA48715041D1D00637872 /* MyLib.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FCA48615041D1D00637872 /* MyLib.m */; };
+		F1FCA48F15041D1D00637872 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1FCA48E15041D1D00637872 /* SenTestingKit.framework */; };
+		F1FCA49115041D1D00637872 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1FCA49015041D1D00637872 /* UIKit.framework */; };
+		F1FCA49215041D1D00637872 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1FCA48015041D1D00637872 /* Foundation.framework */; };
+		F1FCA49515041D1D00637872 /* libMyLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1FCA47D15041D1D00637872 /* libMyLib.a */; };
+		F1FCA49B15041D1D00637872 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F1FCA49915041D1D00637872 /* InfoPlist.strings */; };
+		F1FCA49E15041D1D00637872 /* MyLibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FCA49D15041D1D00637872 /* MyLibTests.m */; };
+		F1FCA51B1504277800637872 /* libRestKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1FCA4C21504206300637872 /* libRestKit.a */; };
+		F1FCA51D1504278C00637872 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1FCA51C1504278C00637872 /* CFNetwork.framework */; };
+		F1FCA51F1504279700637872 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1FCA51E1504279700637872 /* CoreData.framework */; };
+		F1FCA5211504279D00637872 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1FCA5201504279D00637872 /* MobileCoreServices.framework */; };
+		F1FCA523150427A200637872 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1FCA522150427A200637872 /* Security.framework */; };
+		F1FCA525150427A900637872 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1FCA524150427A900637872 /* SystemConfiguration.framework */; };
+		F1FCA527150427AF00637872 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F1FCA526150427AF00637872 /* libxml2.dylib */; };
+		F1FCA52A1504284100637872 /* User.h in Headers */ = {isa = PBXBuildFile; fileRef = F1FCA5281504284100637872 /* User.h */; };
+		F1FCA52B1504284100637872 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FCA5291504284100637872 /* User.m */; };
+		F1FCA52D1504294C00637872 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1FCA51C1504278C00637872 /* CFNetwork.framework */; };
+		F1FCA52E1504295100637872 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1FCA51E1504279700637872 /* CoreData.framework */; };
+		F1FCA52F1504295600637872 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1FCA5201504279D00637872 /* MobileCoreServices.framework */; };
+		F1FCA5301504295B00637872 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1FCA522150427A200637872 /* Security.framework */; };
+		F1FCA5311504295F00637872 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1FCA524150427A900637872 /* SystemConfiguration.framework */; };
+		F1FCA5321504296700637872 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F1FCA526150427AF00637872 /* libxml2.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1FCA49315041D1D00637872 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1FCA47415041D1D00637872 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1FCA47C15041D1D00637872;
+			remoteInfo = MyLib;
+		};
+		F1FCA4C11504206300637872 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1FCA4B71504206300637872 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160D1614564E810060A5C5;
+			remoteInfo = RestKit;
+		};
+		F1FCA4C31504206300637872 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1FCA4B71504206300637872 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160D2614564E820060A5C5;
+			remoteInfo = RestKitTests;
+		};
+		F1FCA4C51504206300637872 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1FCA4B71504206300637872 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160E62145651060060A5C5;
+			remoteInfo = RestKitFramework;
+		};
+		F1FCA4C71504206300637872 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1FCA4B71504206300637872 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160E78145651060060A5C5;
+			remoteInfo = RestKitFrameworkTests;
+		};
+		F1FCA5191504276400637872 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1FCA4B71504206300637872 /* RestKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 25160D1514564E810060A5C5;
+			remoteInfo = RestKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F1FCA47D15041D1D00637872 /* libMyLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMyLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1FCA48015041D1D00637872 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F1FCA48415041D1D00637872 /* MyLib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyLib-Prefix.pch"; sourceTree = "<group>"; };
+		F1FCA48515041D1D00637872 /* MyLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyLib.h; sourceTree = "<group>"; };
+		F1FCA48615041D1D00637872 /* MyLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyLib.m; sourceTree = "<group>"; };
+		F1FCA48D15041D1D00637872 /* MyLibTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyLibTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1FCA48E15041D1D00637872 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F1FCA49015041D1D00637872 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		F1FCA49815041D1D00637872 /* MyLibTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyLibTests-Info.plist"; sourceTree = "<group>"; };
+		F1FCA49A15041D1D00637872 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F1FCA49C15041D1D00637872 /* MyLibTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyLibTests.h; sourceTree = "<group>"; };
+		F1FCA49D15041D1D00637872 /* MyLibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyLibTests.m; sourceTree = "<group>"; };
+		F1FCA4B71504206300637872 /* RestKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RestKit.xcodeproj; path = Libraries/RestKit/RestKit.xcodeproj; sourceTree = "<group>"; };
+		F1FCA51C1504278C00637872 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		F1FCA51E1504279700637872 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F1FCA5201504279D00637872 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		F1FCA522150427A200637872 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F1FCA524150427A900637872 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F1FCA526150427AF00637872 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		F1FCA5281504284100637872 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = User.h; path = MyLib/User.h; sourceTree = "<group>"; };
+		F1FCA5291504284100637872 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.m; path = MyLib/User.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1FCA47A15041D1D00637872 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1FCA527150427AF00637872 /* libxml2.dylib in Frameworks */,
+				F1FCA525150427A900637872 /* SystemConfiguration.framework in Frameworks */,
+				F1FCA523150427A200637872 /* Security.framework in Frameworks */,
+				F1FCA5211504279D00637872 /* MobileCoreServices.framework in Frameworks */,
+				F1FCA51F1504279700637872 /* CoreData.framework in Frameworks */,
+				F1FCA51D1504278C00637872 /* CFNetwork.framework in Frameworks */,
+				F1FCA51B1504277800637872 /* libRestKit.a in Frameworks */,
+				F1FCA48115041D1D00637872 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1FCA48915041D1D00637872 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1FCA5321504296700637872 /* libxml2.dylib in Frameworks */,
+				F1FCA5311504295F00637872 /* SystemConfiguration.framework in Frameworks */,
+				F1FCA5301504295B00637872 /* Security.framework in Frameworks */,
+				F1FCA52F1504295600637872 /* MobileCoreServices.framework in Frameworks */,
+				F1FCA52E1504295100637872 /* CoreData.framework in Frameworks */,
+				F1FCA52D1504294C00637872 /* CFNetwork.framework in Frameworks */,
+				F1FCA48F15041D1D00637872 /* SenTestingKit.framework in Frameworks */,
+				F1FCA49115041D1D00637872 /* UIKit.framework in Frameworks */,
+				F1FCA49215041D1D00637872 /* Foundation.framework in Frameworks */,
+				F1FCA49515041D1D00637872 /* libMyLib.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1FCA47215041D1D00637872 = {
+			isa = PBXGroup;
+			children = (
+				F1FCA5281504284100637872 /* User.h */,
+				F1FCA5291504284100637872 /* User.m */,
+				F1FCA526150427AF00637872 /* libxml2.dylib */,
+				F1FCA524150427A900637872 /* SystemConfiguration.framework */,
+				F1FCA522150427A200637872 /* Security.framework */,
+				F1FCA5201504279D00637872 /* MobileCoreServices.framework */,
+				F1FCA51E1504279700637872 /* CoreData.framework */,
+				F1FCA51C1504278C00637872 /* CFNetwork.framework */,
+				F1FCA48215041D1D00637872 /* MyLib */,
+				F1FCA49615041D1D00637872 /* MyLibTests */,
+				F1FCA47F15041D1D00637872 /* Frameworks */,
+				F1FCA47E15041D1D00637872 /* Products */,
+				F1FCA4B71504206300637872 /* RestKit.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+		F1FCA47E15041D1D00637872 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1FCA47D15041D1D00637872 /* libMyLib.a */,
+				F1FCA48D15041D1D00637872 /* MyLibTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1FCA47F15041D1D00637872 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1FCA48015041D1D00637872 /* Foundation.framework */,
+				F1FCA48E15041D1D00637872 /* SenTestingKit.framework */,
+				F1FCA49015041D1D00637872 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1FCA48215041D1D00637872 /* MyLib */ = {
+			isa = PBXGroup;
+			children = (
+				F1FCA48515041D1D00637872 /* MyLib.h */,
+				F1FCA48615041D1D00637872 /* MyLib.m */,
+				F1FCA48315041D1D00637872 /* Supporting Files */,
+			);
+			path = MyLib;
+			sourceTree = "<group>";
+		};
+		F1FCA48315041D1D00637872 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1FCA48415041D1D00637872 /* MyLib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F1FCA49615041D1D00637872 /* MyLibTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1FCA49C15041D1D00637872 /* MyLibTests.h */,
+				F1FCA49D15041D1D00637872 /* MyLibTests.m */,
+				F1FCA49715041D1D00637872 /* Supporting Files */,
+			);
+			path = MyLibTests;
+			sourceTree = "<group>";
+		};
+		F1FCA49715041D1D00637872 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1FCA49815041D1D00637872 /* MyLibTests-Info.plist */,
+				F1FCA49915041D1D00637872 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F1FCA4B81504206300637872 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1FCA4C21504206300637872 /* libRestKit.a */,
+				F1FCA4C41504206300637872 /* RestKitTests.octest */,
+				F1FCA4C61504206300637872 /* RestKit.framework */,
+				F1FCA4C81504206300637872 /* RestKitFrameworkTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F1FCA47B15041D1D00637872 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1FCA52A1504284100637872 /* User.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F1FCA47C15041D1D00637872 /* MyLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1FCA4A115041D1D00637872 /* Build configuration list for PBXNativeTarget "MyLib" */;
+			buildPhases = (
+				F1FCA47915041D1D00637872 /* Sources */,
+				F1FCA47A15041D1D00637872 /* Frameworks */,
+				F1FCA47B15041D1D00637872 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1FCA51A1504276400637872 /* PBXTargetDependency */,
+			);
+			name = MyLib;
+			productName = MyLib;
+			productReference = F1FCA47D15041D1D00637872 /* libMyLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F1FCA48C15041D1D00637872 /* MyLibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1FCA4A415041D1D00637872 /* Build configuration list for PBXNativeTarget "MyLibTests" */;
+			buildPhases = (
+				F1FCA48815041D1D00637872 /* Sources */,
+				F1FCA48915041D1D00637872 /* Frameworks */,
+				F1FCA48A15041D1D00637872 /* Resources */,
+				F1FCA48B15041D1D00637872 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1FCA49415041D1D00637872 /* PBXTargetDependency */,
+			);
+			name = MyLibTests;
+			productName = MyLibTests;
+			productReference = F1FCA48D15041D1D00637872 /* MyLibTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1FCA47415041D1D00637872 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "PAN Software";
+			};
+			buildConfigurationList = F1FCA47715041D1D00637872 /* Build configuration list for PBXProject "MyLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F1FCA47215041D1D00637872;
+			productRefGroup = F1FCA47E15041D1D00637872 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F1FCA4B81504206300637872 /* Products */;
+					ProjectRef = F1FCA4B71504206300637872 /* RestKit.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				F1FCA47C15041D1D00637872 /* MyLib */,
+				F1FCA48C15041D1D00637872 /* MyLibTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F1FCA4C21504206300637872 /* libRestKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKit.a;
+			remoteRef = F1FCA4C11504206300637872 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F1FCA4C41504206300637872 /* RestKitTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RestKitTests.octest;
+			remoteRef = F1FCA4C31504206300637872 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F1FCA4C61504206300637872 /* RestKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RestKit.framework;
+			remoteRef = F1FCA4C51504206300637872 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F1FCA4C81504206300637872 /* RestKitFrameworkTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RestKitFrameworkTests.octest;
+			remoteRef = F1FCA4C71504206300637872 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1FCA48A15041D1D00637872 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1FCA49B15041D1D00637872 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F1FCA48B15041D1D00637872 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1FCA47915041D1D00637872 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1FCA48715041D1D00637872 /* MyLib.m in Sources */,
+				F1FCA52B1504284100637872 /* User.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1FCA48815041D1D00637872 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1FCA49E15041D1D00637872 /* MyLibTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1FCA49415041D1D00637872 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1FCA47C15041D1D00637872 /* MyLib */;
+			targetProxy = F1FCA49315041D1D00637872 /* PBXContainerItemProxy */;
+		};
+		F1FCA51A1504276400637872 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RestKit;
+			targetProxy = F1FCA5191504276400637872 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F1FCA49915041D1D00637872 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1FCA49A15041D1D00637872 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1FCA49F15041D1D00637872 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F1FCA4A015041D1D00637872 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1FCA4A215041D1D00637872 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/MyLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyLib/MyLib-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SOURCE_ROOT)/Libraries/RestKit/Build\"";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F1FCA4A315041D1D00637872 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/MyLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyLib/MyLib-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SOURCE_ROOT)/Libraries/RestKit/Build\"";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F1FCA4A515041D1D00637872 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyLib/MyLib-Prefix.pch";
+				INFOPLIST_FILE = "MyLibTests/MyLibTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F1FCA4A615041D1D00637872 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyLib/MyLib-Prefix.pch";
+				INFOPLIST_FILE = "MyLibTests/MyLibTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1FCA47715041D1D00637872 /* Build configuration list for PBXProject "MyLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1FCA49F15041D1D00637872 /* Debug */,
+				F1FCA4A015041D1D00637872 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1FCA4A115041D1D00637872 /* Build configuration list for PBXNativeTarget "MyLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1FCA4A215041D1D00637872 /* Debug */,
+				F1FCA4A315041D1D00637872 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1FCA4A415041D1D00637872 /* Build configuration list for PBXNativeTarget "MyLibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1FCA4A515041D1D00637872 /* Debug */,
+				F1FCA4A615041D1D00637872 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1FCA47415041D1D00637872 /* Project object */;
+}
