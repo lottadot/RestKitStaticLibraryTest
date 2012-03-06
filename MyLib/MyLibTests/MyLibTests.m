@@ -19,6 +19,7 @@
 - (void)testExample
 {
     [MyLib testRestKit];
+    [[NSRunLoop currentRunLoop] runUntilDate:[NSDate dateWithTimeIntervalSinceNow:10]];
     sleep(10);
 }
 
